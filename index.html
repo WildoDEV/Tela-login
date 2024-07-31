@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,300;1,100;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <!-- FONT TAG P -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,200;1,400&family=Poppins:ital,wght@0,200;0,300;1,100;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="src/imagem/logo_2.png">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/estilos.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <section class="area-login">
+      <div class="login">
+        <div class="container">
+          <img src="src/imagem/logo_2.png" alt="Logo da instituiçção" />
+        </div>
+
+        <h3>Login</h3>
+
+        <form action="POST" method="post">
+                <input type="number" onkeypress="return event.charCode >=48 && event.charCode <= 57"
+                maxlength="5"
+                name="matricula"
+                id="matricula"
+                placeholder="Digite sua Matricula">
+
+                <input type="password" 
+               name="senha" id="senha"
+              placeholder="Sua Senha">
+
+              <input type="submit"  class="button" value="entrar">
+        </form>
+      </div>
+</section>
+      <div class="descricao">
+        <p class="name" 'Montserrat'>Resolution Speed</p>
+        <div class="logo_2">
+                <img src="src/imagem/logo_2.png" alt="Logo da instituiçção" width="auto" height="180px">
+        </div>
+      </div>
+
+  </body>
+</html>

@@ -1,0 +1,7 @@
+/* Este arquivo ira Retira todo padrão dos Navegadores que já vem com alguns estilos */
+
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
